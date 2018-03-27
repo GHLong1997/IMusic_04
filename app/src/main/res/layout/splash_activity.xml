@@ -39,14 +39,5 @@
         android:layout_gravity="center"
         android:layout_marginBottom="@dimen/dp_30"
         />
-    <TextView
-        android:id="@+id/text_slogan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/music_in_the_hearth"
-        android:layout_gravity="center|bottom"
-        android:textSize="@dimen/sp_23"
-        android:textColor="@color/color_white"
-        android:textStyle="bold"
-        />
+
 </FrameLayout>

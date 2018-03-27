@@ -13,4 +13,5 @@
     <string name="no_granted">No Granted</string>
     <string name="add_to_the_download_list">has been added to the download list</string>
     <string name="search">Search Tracks</string>
+    <string name="starting_download">Starting download</string>
 </resources>

@@ -10,4 +10,7 @@
     <color name="color_black">#000</color>
     <color name="color_slider_in_active">#dcded8</color>
     <color name="color_grayish">#EEEEEE</color>
+    <color name="light_yellow">#FFF176</color>
+    <color name="light_orange">#FFB300</color>
+    <color name="transparent_color_black">#80000000</color>
 </resources>

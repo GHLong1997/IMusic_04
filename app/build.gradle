@@ -8,18 +8,17 @@ android {
   buildToolsVersion '27.0.2'
   defaultConfig {
     buildConfigField "String", "API_KEY", "\"${API_KEY}\""
-    applicationId "com.framgia.music"
+    applicationId 'com.hangoclong.music'
     minSdkVersion 16
     targetSdkVersion 27
     versionCode 1
     versionName "1.0"
     testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    vectorDrawables.useSupportLibrary = true
   }
-
   lintOptions {
     abortOnError false
   }
-
   buildTypes {
     release {
       minifyEnabled false
@@ -30,6 +29,7 @@ android {
     targetCompatibility 1.8
     sourceCompatibility 1.8
   }
+  productFlavors {}
 }
 
 dependencies {
